@@ -210,7 +210,7 @@ module.exports = {
                 })
             }
 
-            res.status(404).json({
+            res.status(200).json({
                 data: history
             })
         } catch (error) {
